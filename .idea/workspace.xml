@@ -6,7 +6,470 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0cdf6e-10e7-434e-8e83-129272a1703a" name="Default Changelist" comment="" />
+    <list default="true" id="9e0cdf6e-10e7-434e-8e83-129272a1703a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithms/src/leetcode/Recusive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/leetcode/tree/BinarySortTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/util/JDBCUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/AddUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/CheckCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/DelSelectedServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/DelUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/FindUserByPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/FindUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/UpdateUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/cn/itcast/web/servlet/UserListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CheckUser_war_exploded/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/util/JDBCUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/AddUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/CheckCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/DelSelectedServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/DelUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/FindUserByPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/FindUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/UpdateUserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/cn/itcast/web/servlet/UserListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CheckUser/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/META-INF/Java基础练习.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/Collections/ArrayLis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/Collections/DemoHashMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/Collections/DouDiZhu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/Collections/LinkedLis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/Collections/RegisterException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/ArrayAlg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/BigDecimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/DemoSort$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/DemoSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/DemoVarArgs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/EnumTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/GenericProgramming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/InterfaceTest/Compute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/InterfaceTest/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/InterfaceTest/KeyBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/InterfaceTest/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/InterfaceTest/USB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/LotteryDrawing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/MyCalendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/Pairtest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/Size.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java基础练习/com/bbu/datatype/string_exercise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/Foundation/ArrayListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/Foundation/HashTableTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/Foundation/MapTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/InnerClass/TalkingClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/InnerClass/TimerPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/ArithmeticUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/ArrayAlg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/CalendarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/CompoundInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/PairTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/ParaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/JavaExe/ReflectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UserInfo/com/bbu/Reflect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Array_Slove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Average.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/BruteForceSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex07a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex07b.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex07c.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex08.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex09.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex31$Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex33.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex37.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex38.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Ex39.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Fibonacci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/RandomSeq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_1/ShuffleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Accumulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/BasicDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex07.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex09.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Ex18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Flips.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/FlipsMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Rational.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Rolls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/SmallDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/SmartDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/StaticSETofInts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/TestAccumulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/TestVisualAccumulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/VisualAccumulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/VisualCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_2/Whitelist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Bag$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Bag$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Bag$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Evaluate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/EvaluatePostfix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Ex05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Ex42.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Ex47.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Ex50.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/FixedCapacityStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/FixedCapacityStackOfStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/InfixToPostfix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Josephus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Parentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Queue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Queue$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Queue$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/ResizingArrayQueueOfStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/ResizingArrayStack$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/ResizingArrayStack$ReverseArrayIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/ResizingArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Stack$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Stack$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Stack$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_3/Stats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/DoublingRatio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/DoublingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/Ex14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/Ex20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/Stopwatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/ThreeSumFast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_4/TwoSumFast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/ErdosRenyi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/Ex08.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/Ex12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/Ex13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/Ex14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/QuickFindUF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/QuickUnionUF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/UF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter1_5/WeightedQuickUnionUF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Ex18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Ex24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Ex25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Insertion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Selection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Shell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/SortCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/SortTransaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_1/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Ex09.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Ex10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Ex11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Ex19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Ex20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/Merge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_2/MergeBU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Ex02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Ex05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Ex12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Ex16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Ex22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Quick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_3/Quick3way.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/CubeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/Heap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/MaxPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/Multiway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/OrderedArrayMaxPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/TopM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_4/UnorderedArrayMaxPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/California$CandidateComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/California.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Domain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Ex24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Ex31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/FileSorter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Frequency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Insertion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Job.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/KendallTau.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/LPT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Record.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/SPT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Transaction$HowMuchOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Transaction$WhenOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Transaction$WhoOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter2_5/各种排序算法的性能特点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/ArrayST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/BinarySearchST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/Ex01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/FrequencyCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/SequentialSearchST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/SequentialSearchST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_1/TestBinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/BST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/Ex13$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/Ex13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/Ex25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_2/TestBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_3/RedBlackBST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_3/RedBlackBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_3/TestRB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_4/LinearProbingHashST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_4/SeparateChainingHashST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/Concordance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/DeDup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/FileIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/LookupCSV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/LookupIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/SparseMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/SparseVector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter3_5/WhiteFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/BaconHistogram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/BreadthFirstPaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/CC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/Cycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/DegreesOfSeparation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/DegreesOfSeparationDFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/DepthFirstPaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/DepthFirstSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/Ex35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/SymbolGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/TestSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_1/TwoColor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/DepthFirstOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/Digraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/DirectedCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/DirectedDFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/Euler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/Ex30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/KosarajuSCC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/SymbolDigraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/Topological.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_2/TransitiveClosure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/BoruvkaMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/Edge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/EdgeWeightedGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/Ex22KruskalMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/Ex22PrimMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/KruskalMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/LazyPrimMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_3/PrimMST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/AcyclicLP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/AcyclicSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/Arbitrage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/BellmanFordSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/CPM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/DijkstraAllPairsSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/DijkstraSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/DirectedEdge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/EdgeWeightedCycleFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/EdgeWeightedDigraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/EdgeWeightedTopological.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/Ex39$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/Ex39$ByDistanceFromSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter4_4/Ex39.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_1/Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_1/Insertion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_1/LSD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_1/MSD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_1/Quick3string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TST$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TrieST$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TrieST$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_2/TrieST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_3/BoyerMoore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_3/KMP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_3/RabinKarp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_4/GREP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_4/NFA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/BinaryDump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/Genome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/Huffman$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/Huffman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/LZW.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/RandomBits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter5_5/RunLength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/CollisionSystem$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/CollisionSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/FlowEdge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/FlowNetwork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/FordFulkerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/KWIC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/LRS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/LongestPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/jimmysun/algorithms/chapter6/SuffixArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Alphabet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Bag$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Bag$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Bag$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/BinaryStdIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/BinaryStdOut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Counter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/DepthFirstOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Draw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/DrawListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Heap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/HexDump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/In.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/IndexMinPQ$HeapIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/IndexMinPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval1D$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval1D$LengthComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval1D$MaxEndpointComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval1D$MinEndpointComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval1D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Interval2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/MinPQ$HeapIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/MinPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Out.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Particle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Picture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/PictureDump.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$Atan2Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$DistanceToOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$PolarOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$ROrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$XOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D$YOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Point2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Queue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Queue$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Queue$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/SET.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/ST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Stack$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Stack$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Stack$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/StdDraw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/StdIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/StdOut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/edu/princeton/cs/algs4/StdRandom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/ArrayListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/BinaryHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/CloneExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/Hash_Implement$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/Hash_Implement$BinaryHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/Hash_Implement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Java_String/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Singleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Singleton$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/TowQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/BianliTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/BigDepth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/Cengcibianli.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/Cengcibianli2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/Digui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/XunFei1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/XunFei2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/XunFei3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/tree/XunFei4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +492,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="228">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,11 +505,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BianliTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="874">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="e#549#559#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +514,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
+            <state>
               <folding>
                 <element signature="e#0#966#0" expanded="true" />
               </folding>
@@ -96,17 +556,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/XunFei1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="1425">
               <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Construct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="227">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Recusive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BinarySortTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -145,7 +623,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithms/src/leetcode/tree/BigDepth.java" />
         <option value="$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli.java" />
         <option value="$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli2.java" />
         <option value="$PROJECT_DIR$/Java基础练习/src/com/bbu/datatype/string_exercise.java" />
@@ -196,6 +673,7 @@
         <option value="$PROJECT_DIR$/algorithms/src/leetcode/Construct.java" />
         <option value="$PROJECT_DIR$/algorithms/src/leetcode/TowQueue.java" />
         <option value="$PROJECT_DIR$/CheckUser/README.md" />
+        <option value="$PROJECT_DIR$/algorithms/src/leetcode/Recusive.java" />
       </list>
     </option>
   </component>
@@ -226,18 +704,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="UserInfo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="CheckUser" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +715,36 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="UserInfo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="UserInfo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UserInfo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UserInfo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +756,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -290,7 +786,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TowQueue">
+  <component name="RunManager" selected="Application.Recusive">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ArrayListTest" />
       <module name="algorithms" />
@@ -330,12 +826,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoVarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bbu.datatype.DemoVarArgs" />
-      <module name="Java基础练习" />
+    <configuration name="Recusive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Recusive" />
+      <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bbu.datatype.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,20 +924,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DemoVarArgs" />
       <item itemvalue="Application.DemoSort" />
       <item itemvalue="Application.DemoHashMap" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
       <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.TowQueue" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
+      <item itemvalue="Application.Recusive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recusive" />
         <item itemvalue="Application.TowQueue" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.DemoHashMap" />
         <item itemvalue="Application.DemoSort" />
-        <item itemvalue="Application.DemoVarArgs" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +965,7 @@
       <workItem from="1596546892564" duration="18268000" />
       <workItem from="1597041266816" duration="25064000" />
       <workItem from="1597195264245" duration="21040000" />
+      <workItem from="1597371708039" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="Userinfo">
       <created>1597233964768</created>
@@ -488,12 +985,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155804000" />
+    <option name="totallyTimeSpent" value="158624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.3068182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.3121212" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.27761838" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -501,7 +999,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24096386" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4664372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.063464835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,10 +1010,11 @@
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.2761578" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.27538726" />
       <window_info anchor="bottom" id="Application Servers" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,24 +1057,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Java_String/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Java_String/Hash_Implement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Java_String/BinaryHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -922,68 +1403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BianliTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#549#559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <folding>
-            <element signature="e#0#966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/XunFei1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/TowQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1005,10 +1424,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BianliTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/Cengcibianli2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/XunFei1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Construct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="227">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/Recusive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/leetcode/tree/BinarySortTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
