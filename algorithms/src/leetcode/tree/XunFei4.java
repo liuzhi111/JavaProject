@@ -14,13 +14,16 @@ public class XunFei4 {
         Scanner sc = new Scanner(System.in);
 
         String str = sc.next();  //输入一串字符串
+
         System.out.println("输入的字符串为: "+str);
 
         long number = 0;
         int flag = 1;
         for (int i = 0; i < str.length(); i++) {
+
             char c = str.charAt(i); //取字符
             if (isDigit(c)) { //判断是否为数字
+
                 number *= 10;
                 number += c - '0';
             }

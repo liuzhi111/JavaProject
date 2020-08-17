@@ -1,5 +1,6 @@
 package leetcode.tree;
 
+
 /**
  * @description: 练习递归调用的相关方法
  * @author: liuzhi
@@ -8,6 +9,7 @@ package leetcode.tree;
 public class Digui {
 
     //递推的方法实现
+
     public static int fn(int n)
     {
         if (n<=2) {
@@ -28,8 +30,9 @@ public class Digui {
     //递归的方法实现
     public static int fn1(int n)
     {
-        if (n <= 2)
+        if (n <= 2) {
             return n;
+        }
         int [] arr = new int[n];
 
         if (arr[n] != -1)

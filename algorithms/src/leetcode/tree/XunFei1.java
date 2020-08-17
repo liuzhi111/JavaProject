@@ -24,9 +24,11 @@ public class XunFei1 {
     {
         int res = 0;
         if(k >= 100 && e!=0){
+
             int s = k/100;  //
             System.out.println(s);
             if(s <= e) {  //先挑100,把能挑的挑完
+
                 res += s;
                 k = k % 100;
             } else {  //不够的话计算剩下的
@@ -36,7 +38,9 @@ public class XunFei1 {
         }
         System.out.println("除去100之后的k = "+k);
         if(k >= 50 && d!=0) {
+
             int s = k / 50;//需要用多少张50
+
             if(s <= d) {    //再挑50
                 res += s;
                 k = k%50;
@@ -70,11 +74,14 @@ public class XunFei1 {
             }
         }
         System.out.println("除去5之后的k = "+k);
+
         if(k <= a) {
             return res+k; //1元的
         } else {
             System.out.println("所需的钱不够");
             return -1;//1元的不够
         }
+
+
     }
 }
