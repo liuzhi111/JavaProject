@@ -5,5 +5,22 @@ package com.bbu.DesignPattern;
  * @author: liuzhi
  * @Date: 2020-08-16 19:33
  **/
-public class PizzaStore {
+public abstract class PizzaStore {
+    SimplePizzaFactor factor;
+    public PizzaStore(SimplePizzaFactor factor)
+    {
+        this.factor = factor;
+    }
+
+    public Pizza orderPizza(String type)
+    {
+        Pizza pizza;
+        pizza = factor.createPizza(type);
+
+        pizza.prepare();
+        pizza.bake();
+        pizza.cut();
+        pizza.box();
+        return  new Pizza();
+    }
 }
