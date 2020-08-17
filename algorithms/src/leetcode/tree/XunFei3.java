@@ -11,7 +11,8 @@ public class XunFei3 {
     public static void main(String[] args) {
         //处理输入
         Scanner sc = new Scanner(System.in);
-        int[][] square1 = new int[2][2], square2 = new int[2][2];
+        int[][] square1 = new int[2][2];
+        int[][] square2 = new int[2][2];
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
                 square1[i][j] = sc.nextInt();
@@ -23,10 +24,10 @@ public class XunFei3 {
             }
         }
 
-        if (xIn(square1, square2) && yIn(square1, square2)) {
-            System.out.print(1);
+        if (xIn(square1, square2) && yIn(square1, square2)) { //判断相交
+            System.out.print(true);
         } else {
-            System.out.print(0);
+            System.out.print(false);
         }
     }
 

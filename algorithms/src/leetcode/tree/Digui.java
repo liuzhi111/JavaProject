@@ -1,7 +1,5 @@
 package leetcode.tree;
 
-import org.jetbrains.annotations.Contract;
-
 /**
  * @description: 练习递归调用的相关方法
  * @author: liuzhi
@@ -10,11 +8,11 @@ import org.jetbrains.annotations.Contract;
 public class Digui {
 
     //递推的方法实现
-    @Contract(pure = true)
     public static int fn(int n)
     {
-        if (n<=2)
+        if (n<=2) {
             return n;
+        }
         int f1=1;
         int f2=2;
         int sum=0;
@@ -28,7 +26,6 @@ public class Digui {
         return sum;
     }
     //递归的方法实现
-    @Contract(pure = true)
     public static int fn1(int n)
     {
         if (n <= 2)

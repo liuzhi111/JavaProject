@@ -6,4 +6,5 @@ package leetcode.tree;
  * @Date: 2020-08-14 11:19
  **/
 public class BinarySortTree {
+
 }
